@@ -9,8 +9,8 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
 
         <button type="button" onClick={() => router.push('/conteo-productos')}> cargar grafico lineal</button>
-        <button type="button" onClick={() => router.push('/total-productos')}> cargar grafico lineal</button>
-        <button type="button" onClick={() => router.push('/valores-productos')}> Cargar Grafico de Pastel</button>
+        <button type="button" onClick={() => router.push('/total-productos')}> cargar grafico 2</button>
+        <button type="button" onClick={() => router.push('/valores-productos')}> Cargar Grafico</button>
 
       </main>
     </div>
